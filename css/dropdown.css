@@ -1,0 +1,20 @@
+.dropdown {
+    position: fixed;
+    z-index: 91;
+    background-color: #eee;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    max-height: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+    margin: 4px 0;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    max-width: 100%;
+    padding: 0;
+}
+
+.dropdown.below {
+    margin-bottom: 2px;
+}
